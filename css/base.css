@@ -1,0 +1,16 @@
+.clearfix::after,
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
